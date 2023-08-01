@@ -18,9 +18,9 @@
 
 
 ## Avances por clase
-- Clase 1 - Jueves 27 Julio - _Estructura básica HTML_
-- Clase 2 - Viernes 28 Julio - _Header HTML_
-- Clase 3 - Lunes 31 Julio - _Header CSS parte 1_
+- Clase 1 - (Clase 60)Jueves 27 Julio - _Estructura básica HTML_
+- Clase 2 - (Clase 61)Viernes 28 Julio - _Header HTML_
+- Clase 3 - (Clase 62)Lunes 31 Julio - _Header CSS parte 1_
 
 
 
