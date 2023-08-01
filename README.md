@@ -4,7 +4,7 @@
 
 ### index.html
 - [x] Estructura básica HTML
-- [ ] Construcción Header
+- [X] Construcción Header
 - [ ] Construcción secciones
 
 ### assets/css/estilos.css
