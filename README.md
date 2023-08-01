@@ -2,11 +2,16 @@
 
 ## Archivos
 
-### 1. index.html
-       - _Archivo con la estructura básica del sitio_
+### index.html
+- [x] Estructura básica HTML
+- [ ] Construcción Header
+- [ ] Construcción secciones
 
-### 2. assets/css/estilos.css
-       - Archivo con las clases de css
+### assets/css/estilos.css
+- [x] estilos básicos
+- [x] Reset
+- [x] variables de color
+- [ ] Header
+- [ ] Secciones   
 
-### 3. assets/img/
-       - _Carpeta con las imágenes utilizadas en el proyecto_
+> El archivo ".gitignore" es solo para que no suba algunas carpetas de mi compu, no copiar
