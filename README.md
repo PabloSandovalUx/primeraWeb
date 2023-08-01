@@ -12,7 +12,8 @@
 - [x] Reset
 - [x] variables de color
 - [ ] Header
-- [ ] Secciones   
+- [ ] Secciones
+- [ ] Responsive
 
 
 
