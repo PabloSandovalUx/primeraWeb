@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --colorPrincipal: #2c72bc;
+    --colorPrincipalClaro: #6a97c8;
+    --colorPrincipalOscuro: #1d5487;
+}
+
+.headerPrincipal{
+    background-color: var(--colorPrincipal);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.logoHeader{
+    width: 5em;
+}
+
+.carritoHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.headerSecundario{
+    background-color: var(--colorPrincipalClaro);
+    padding: 20px;
+}
+
+.headerSecundario nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.headerSecundario nav a{
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+.headerSecundario nav a:hover{
+    color: var(--colorPrincipalOscuro);
+}
+
+
+
