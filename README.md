@@ -6,7 +6,7 @@
        - _Archivo con la estructura básica del sitio_
 
 ### 2. assets/css/estilos.css
-       - _Archivo con las clases de css_
+       - Archivo con las clases de css
 
 ### 3. assets/img/
        - _Carpeta con las imágenes utilizadas en el proyecto_
