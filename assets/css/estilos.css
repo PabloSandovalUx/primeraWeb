@@ -16,13 +16,42 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 10%;
 }
 
 .logoHeader{
     width: 5em;
+}
+
+.buscadorHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.buscadorHeader input{
+    padding: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 20vw;
+    min-width: 250px;
+}
+
+.buscadorHeader svg{
+    background-color: var(--colorPrincipalOscuro);
+    height: 40px;
+    width: 50px;
+    padding: 12px;
+    border-radius: 0 5px 5px 0;
+    transition: background-color .3s ease-out;
+}
+
+.buscadorHeader svg:hover{
+    background-color: var(--colorPrincipalClaro);
 }
 
 .carritoHeader{
@@ -31,8 +60,32 @@
     flex-wrap: nowrap;
     justify-content: center;
     gap: 15px;
+    background-color: var(--colorPrincipalOscuro);
+    height: 40px;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 5px;
+    transition: all .3s ease-out;
 }
 
+.carritoHeader svg{
+    width: 24px;
+    height: 24px;
+    transition: all .3s ease-out;
+}
+
+.carritoHeader p{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.carritoHeader:hover{
+    background-color: var(--colorPrincipalClaro);
+}
+
+.carritoHeader:hover svg{
+    transform: rotate(-10deg);
+}
 
 .headerSecundario{
     background-color: var(--colorPrincipalClaro);
@@ -55,6 +108,3 @@
 .headerSecundario nav a:hover{
     color: var(--colorPrincipalOscuro);
 }
-
-
-
