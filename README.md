@@ -11,7 +11,7 @@
 - [x] estilos básicos
 - [x] Reset
 - [x] variables de color
-- [ ] Header
+- [x] Header
 - [ ] Secciones
 - [ ] Responsive
 
@@ -21,6 +21,7 @@
 - Clase 1 - (Clase 60)Jueves 27 Julio - _Estructura básica HTML_
 - Clase 2 - (Clase 61)Viernes 28 Julio - _Header HTML_
 - Clase 3 - (Clase 62)Lunes 31 Julio - _Header CSS parte 1_
+- Clase 4 - (Clase 63)Martes 01 Agosto - _Header CSS parte 2_
 
 
 
