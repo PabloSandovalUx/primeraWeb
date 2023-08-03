@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Roboto:wght@300;400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,12 @@
     --colorPrincipal: #2c72bc;
     --colorPrincipalClaro: #6a97c8;
     --colorPrincipalOscuro: #1d5487;
+    --colorClaro: #f6f6f6 ;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--colorClaro);
 }
 
 .headerPrincipal{
@@ -108,3 +116,28 @@
 .headerSecundario nav a:hover{
     color: var(--colorPrincipalOscuro);
 }
+
+.seccionProductos{
+    padding: 60px 50px;
+    /* background-color: red; */
+}
+
+.seccionProductos h2{
+    color: var(--colorPrincipalOscuro);
+    margin-bottom: 1.5em;
+    font-family: 'Handjet', cursive;
+}
+
+.contenedorCardsProductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.cardProductos{
+    background-color: #fff;
+    border-radius: 10px;
+}
+

@@ -5,7 +5,7 @@
 ### index.html
 - [x] Estructura básica HTML
 - [X] Construcción Header
-- [ ] Construcción secciones
+- [x] Construcción secciones
 
 ### assets/css/estilos.css
 - [x] estilos básicos
@@ -22,6 +22,7 @@
 - Clase 2 - (Clase 61)Viernes 28 Julio - _Header HTML_
 - Clase 3 - (Clase 62)Lunes 31 Julio - _Header CSS parte 1_
 - Clase 4 - (Clase 63)Martes 01 Agosto - _Header CSS parte 2_
+- Clase 5 - (Clase 64)Miércoles 02 Agosto - _Estructura HTML secciones_
 
 
 
