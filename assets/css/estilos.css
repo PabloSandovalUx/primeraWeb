@@ -1,143 +1,215 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Roboto:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Roboto:wght@300;400;700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --colorPrincipal: #2c72bc;
-    --colorPrincipalClaro: #6a97c8;
-    --colorPrincipalOscuro: #1d5487;
-    --colorClaro: #f6f6f6 ;
+:root {
+  --colorPrincipal: #2c72bc;
+  --colorPrincipalClaro: #6a97c8;
+  --colorPrincipalOscuro: #1d5487;
+  --colorClaro: #f6f6f6;
+  --colorRojo: #ef5b6f;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--colorClaro);
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--colorClaro);
 }
 
-.headerPrincipal{
-    background-color: var(--colorPrincipal);
-    color: #fff;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10%;
+.headerPrincipal {
+  background-color: var(--colorPrincipal);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
 }
 
-.logoHeader{
-    width: 5em;
+.logoHeader {
+  width: 5em;
 }
 
-.buscadorHeader{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
+.buscadorHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
-.buscadorHeader input{
-    padding: 10px;
-    height: 40px;
-    border: none;
-    border-radius: 5px 0 0 5px;
-    width: 20vw;
-    min-width: 250px;
+.buscadorHeader input {
+  padding: 10px;
+  height: 40px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 20vw;
+  min-width: 250px;
 }
 
-.buscadorHeader svg{
-    background-color: var(--colorPrincipalOscuro);
-    height: 40px;
-    width: 50px;
-    padding: 12px;
-    border-radius: 0 5px 5px 0;
-    transition: background-color .3s ease-out;
+.buscadorHeader svg {
+  background-color: var(--colorPrincipalOscuro);
+  height: 40px;
+  width: 50px;
+  padding: 12px;
+  border-radius: 0 5px 5px 0;
+  transition: background-color 0.3s ease-out;
 }
 
-.buscadorHeader svg:hover{
-    background-color: var(--colorPrincipalClaro);
+.buscadorHeader svg:hover {
+  background-color: var(--colorPrincipalClaro);
 }
 
-.carritoHeader{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: 15px;
-    background-color: var(--colorPrincipalOscuro);
-    height: 40px;
-    align-items: center;
-    padding: 0 15px;
-    border-radius: 5px;
+.carritoHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 15px;
+  background-color: var(--colorPrincipalOscuro);
+  height: 40px;
+  align-items: center;
+  padding: 0 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+}
+
+.carritoHeader svg {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-out;
+}
+
+.carritoHeader p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.carritoHeader:hover {
+  background-color: var(--colorPrincipalClaro);
+}
+
+.carritoHeader:hover svg {
+  transform: rotate(-10deg);
+}
+
+.headerSecundario {
+  background-color: var(--colorPrincipalClaro);
+  padding: 20px;
+}
+
+.headerSecundario nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.headerSecundario nav a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+.headerSecundario nav a:hover {
+  color: var(--colorPrincipalOscuro);
+}
+
+.seccionProductos {
+  padding: 60px 50px;
+  /* background-color: red; */
+}
+
+.seccionProductos h2 {
+  color: var(--colorPrincipalOscuro);
+  margin-bottom: 1.5em;
+  font-family: "Handjet", cursive;
+}
+
+.contenedorCardsProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.cardProductos {
+    flex: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px 25px;
+  transition: all .3s ease-out;
+}
+
+.cardProductos:hover{
+    box-shadow: 5px 5px 20px rgba(40, 44, 52,.1);
+}
+
+.cardProductos .imgCard img{
     transition: all .3s ease-out;
 }
 
-.carritoHeader svg{
-    width: 24px;
-    height: 24px;
-    transition: all .3s ease-out;
+
+
+.cardProductos:hover .imgCard img{
+    transform: rotate(25deg);
 }
 
-.carritoHeader p{
-    font-size: 18px;
-    font-weight: 700;
+.textosCard {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.carritoHeader:hover{
-    background-color: var(--colorPrincipalClaro);
+.imgCard{
+    overflow: hidden;
 }
 
-.carritoHeader:hover svg{
-    transform: rotate(-10deg);
+.imgCard img {
+  width: 100%;
 }
 
-.headerSecundario{
-    background-color: var(--colorPrincipalClaro);
-    padding: 20px;
+.precioTextosCard {
+  margin-bottom: 10px;
 }
 
-.headerSecundario nav{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+.precioTextosCard h4 {
+  color: var(--colorRojo);
+  text-decoration: line-through;
+}
+.precioTextosCard h3 {
+  color: var(--colorPrincipalOscuro);
+  margin-left: 10px;
 }
 
-.headerSecundario nav a{
-    color: white;
-    text-decoration: none;
-    transition: all .3s ease-out;
+.detalleTextosCard h5 {
+  font-weight: 300;
 }
 
-.headerSecundario nav a:hover{
-    color: var(--colorPrincipalOscuro);
+.detalleTextosCard h3 {
+  font-weight: 700;
 }
 
-.seccionProductos{
-    padding: 60px 50px;
-    /* background-color: red; */
+.btnCard {
+  display: flex;
+  flex-direction: column;
 }
 
-.seccionProductos h2{
-    color: var(--colorPrincipalOscuro);
-    margin-bottom: 1.5em;
-    font-family: 'Handjet', cursive;
+.btnCard a {
+  border: 1px solid var(--colorPrincipalOscuro);
+  border-radius: 30px;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  color: var(--colorPrincipal);
+  transition: all 0.3s ease-out;
 }
 
-.contenedorCardsProductos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    justify-content: flex-start;
+.btnCard a:hover {
+  background-color: var(--colorPrincipal);
+  color: #fff;
 }
-
-.cardProductos{
-    background-color: #fff;
-    border-radius: 10px;
-}
-
