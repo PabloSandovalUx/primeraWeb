@@ -50,7 +50,10 @@ body {
   min-width: 250px;
 }
 
-.buscadorHeader svg {
+.buscadorHeader a{
+  display: flex;
+  justify-content: center;
+  color: #fff;
   background-color: var(--colorPrincipalOscuro);
   height: 40px;
   width: 50px;
@@ -59,11 +62,13 @@ body {
   transition: background-color 0.3s ease-out;
 }
 
-.buscadorHeader svg:hover {
+.buscadorHeader a:hover {
   background-color: var(--colorPrincipalClaro);
 }
 
-.carritoHeader {
+.carritoHeader a{
+  color: #fff;
+  text-decoration: none;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -88,7 +93,7 @@ body {
   font-weight: 700;
 }
 
-.carritoHeader:hover {
+.carritoHeader a:hover {
   background-color: var(--colorPrincipalClaro);
 }
 
@@ -144,6 +149,9 @@ body {
   border-radius: 10px;
   padding: 25px 25px;
   transition: all .3s ease-out;
+
+  cursor:default;
+  user-select: none;
 }
 
 .cardProductos:hover{
@@ -212,4 +220,49 @@ body {
 .btnCard a:hover {
   background-color: var(--colorPrincipal);
   color: #fff;
+}
+/* MOBILE */
+@media screen and (max-width: 767px) {
+  header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  .headerSecundario{
+    display: none;
+  }
+  main{
+    padding-top: 7em;
+  }
+  .contenedorCardsProductos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .headerSecundario nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .buscadorHeader input{
+    display: none;
+  }
+
+  .buscadorHeader a{
+    border-radius: 5px;
+  }
+
+  .seccionProductos h2 {
+    font-size: 3em;
+  }
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contenedorCardsProductos{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cardProductos{
+    flex: auto;
+    max-width: 30%;
+  }
 }

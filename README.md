@@ -13,7 +13,7 @@
 - [x] variables de color
 - [x] Header
 - [x] Secciones
-- [ ] Responsive
+- [x] Responsive
 
 
 
@@ -24,6 +24,7 @@
 - Clase 4 - (Clase 63)Martes 01 Agosto - _Header CSS parte 2_
 - Clase 5 - (Clase 64)Miércoles 02 Agosto - _Estructura HTML secciones_
 - Clase 6 - (Clase 65)Jueves 03 Agosto - _Estilos CSS sección_
+- Clase 7 - (Clase 66)Viernes 04 Agosto - _Responsive_
 
 
 
